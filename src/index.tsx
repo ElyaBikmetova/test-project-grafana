@@ -1,9 +1,9 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './reset.css';
+import {ProductPage} from './components/ProductPage';
 
-const root = ReactDOM.render(
-  <App />,
+ReactDOM.render(
+  <ProductPage/>,
   document.getElementById('root') as HTMLElement
 );
