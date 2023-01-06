@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
-import './index.css';
-import './reset.css';
-import {ProductPage} from './components/ProductPage';
+import './index.scss';
+import './reset.scss';
+import { ProductPage } from './components/ProductPage';
 
 ReactDOM.render(
   <ProductPage/>,

@@ -9,7 +9,7 @@ import {
 } from '@grafana/data';
 import axios from 'axios';
 import { TableCellDisplayMode } from '@grafana/ui';
-import { IData, IProduct } from '../interfaces/Table';
+import { IData, IProduct } from '../interfaces/table';
 
 export function useProducts() {
     const theme = useContext(React.createContext(createTheme({ colors: { mode: 'light' } })));

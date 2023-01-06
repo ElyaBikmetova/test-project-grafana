@@ -4,11 +4,11 @@
     align-items: center;
     background-color: black;
     height: 100vh;
-}
 
-.products__mainPage-title {
-    padding: 20px 0;
-    font-size: xx-large;
-    color: #6E9FFF;
-    font-weight: 600;
+    &-title {
+        padding: 20px 0;
+        font-size: xx-large;
+        color: #6E9FFF;
+        font-weight: 600;
+    }
 }
